@@ -1,0 +1,20 @@
+1. MVC:
+    https://medium.com/@socraticsol/why-mvc-architecture-e833e28e0c76
+
+2. Node App project structure:
+    https://stackoverflow.com/questions/5178334/folder-structure-for-a-node-js-project
+    https://medium.com/codebase/structure-of-a-nodejs-api-project-cdecb46ef3f8
+
+3. Configuration Management:
+    https://codeburst.io/node-js-best-practices-smarter-ways-to-manage-config-files-and-variables-893eef56cbef
+    
+4. Constants Management:
+    https://stackoverflow.com/questions/8595509/how-do-you-share-constants-in-nodejs-modules
+    
+5. Best Practices:
+    https://www.algoworks.com/blog/best-practices-for-nodejs-app-development/
+    https://stackoverflow.com/questions/3345162/best-practices-for-avoiding-hardcoded-values-irl
+    
+6. .gitignore:
+    https://git-scm.com/docs/gitignore
+    
