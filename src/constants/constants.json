@@ -1,7 +1,19 @@
 {
+	"app_data": {
+		"APP_NAME": "Indian Railways",
+		"AUTHOR_NAME": "Monish Akram",
+		"AUTHOR_EMAIL": "monishakram123@gmail.com",
+		"REPO": "https://github.com/Ratnambar/RailwayNodeApp",
+		"CREATED": "18/06/2019"
+	},
+
 	"routes": {
 		"MAIN": "/",
 		"HOME" : "/home",
 		"ENVIRONMENT": "/env"
+	},
+
+	"titles": {
+		"HOME": "Home"
 	}
 }
