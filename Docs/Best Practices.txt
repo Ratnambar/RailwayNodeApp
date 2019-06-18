@@ -17,4 +17,20 @@
     
 6. .gitignore:
     https://git-scm.com/docs/gitignore
+
+7. Static file steup
+	https://expressjs.com/en/starter/static-files.html
+
+8. Dynamic Web page using handlerbars
+	https://handlebarsjs.com/
+
+9. Partials
+	https://handlebarsjs.com/partials.html
+
+10. Router in Node
+	https://expressjs.com/en/guide/routing.html
+	https://medium.com/@cmpbilge/routing-with-nodejs-express-4ce79752e146
+	
+
+
     

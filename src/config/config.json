@@ -1,10 +1,11 @@
 {
 	"development": {
 		"config_id": "development",
-		"app_name": "railway",
-		"node_port": 3000,
+		"app_name": "Indian Railways",
+		"node_port": 3000
 	}, 
 	"testing": {
-		"config_id": "testing"
+		"config_id": "testing",
+		"node_port": 4000
 	}
 }
