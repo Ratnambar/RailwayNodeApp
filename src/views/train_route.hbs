@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	{{>header}}
+<body>
+	<form action="{{form_fields.action_url}}" method="post">
+		Train number:
+		<input type="text" name="{{form_fields.FIELD_TRAIN_NUMBER}}" />
+		<button type="submit">Submit</button>
+	</form>
+	{{>footer}}
+</body>
+</html>

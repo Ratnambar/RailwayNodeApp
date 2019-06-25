@@ -10,10 +10,21 @@
 	"routes": {
 		"MAIN": "/",
 		"HOME" : "/home",
-		"ENVIRONMENT": "/env"
+		"ENVIRONMENT": "/env",
+		"RAILWAY_API": "/railways",
+		"TRAIN_ROUTE": "/route/train"
 	},
 
-	"titles": {
-		"HOME": "Home"
+	"pages": {
+		
+		"HOME": {
+			"page_title" : "home"
+		},
+		"TRAIN_ROUTE": {
+			"page_title": "Train Route",
+			"form_fields": {
+				"FIELD_TRAIN_NUMBER": "train_number"
+			}
+		}
 	}
 }

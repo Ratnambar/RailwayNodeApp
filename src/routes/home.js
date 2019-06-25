@@ -7,7 +7,7 @@ const router = express.Router();
 router.get("/", (req, res) => {
 	data = {
 		"app_data": constants.app_data,
-		"page_title": constants.titles.HOME,
+		"page_title": constants.pages.HOME.page_title,
 		"date": new Date()
 	};
 	console.log(`Rendering home page with data: ${JSON.stringify(data)}`);
