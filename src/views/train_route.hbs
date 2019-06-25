@@ -6,6 +6,30 @@
 		Train number:
 		<input type="text" name="{{form_fields.FIELD_TRAIN_NUMBER}}" />
 		<button type="submit">Submit</button>
+		{{#if results}}
+			<table>
+				<thead>
+					<tr>
+						<th>Station</th>
+						<th>Arrival</th>
+						<th>Departure</th>
+						<th>Halt</th>
+						<th>Distance</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{#each results.route}}
+					<tr>
+						<td>{{station.name}}({{station.code}})</td>
+						<td>{{scharr}}</td>
+						<td>{{schdep}}</td>
+						<td>{{halt}}</td>
+						<td>{{distance}}</td>
+					</tr>
+					{{/each}}
+				</tbody>
+			</table>
+		{{/if}}
 	</form>
 	{{>footer}}
 </body>
